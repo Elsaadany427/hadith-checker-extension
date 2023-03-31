@@ -1,10 +1,10 @@
-import { searchForHadith } from './utils/searchForHadith.js';
-import { convertHTMLHadithToJSON } from './utils/convertHTMLHadithToJSON.js';
-import { convertOptionsToQueryString } from './utils/convertOptionsToQueryString.js';
+import { searchForHadith } from '../../utils/searchForHadith.js';
+import { convertHTMLHadithToJSON } from '../../utils/convertHTMLHadithToJSON.js';
+import { convertOptionsToQueryString } from '../../utils/convertOptionsToQueryString.js';
 import {
   bukhariOptions,
   muslimOptions,
-} from './utils/defaultOptions.js';
+} from '../../utils/defaultOptions.js';
 
 const content = document.getElementById('content');
 const next = document.getElementById('next');
