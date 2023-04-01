@@ -1,11 +1,11 @@
 //import
-import { allBooks } from '../../utils/data/allBooks.js';
-import { allMohdith } from '../../utils/data/allMohdith.js';
-import { hadithDegree } from '../../utils/data/hadithDegree.js';
-import { searchZone } from '../../utils/data/searchZone.js';
-import { allRawi } from '../../utils/data/allRawi.js';
-import { searchMethod } from '../../utils/data/searchMethod.js';
-import { defaultOptions } from '../../utils/defaultOptions.js';
+import { allBooks } from '../../../../utils/data/allBooks.js';
+import { allMohdith } from '../../../../utils/data/allMohdith.js';
+import { hadithDegree } from '../../../../utils/data/hadithDegree.js';
+import { searchZone } from '../../../../utils/data/searchZone.js';
+import { allRawi } from '../../../../utils/data/allRawi.js';
+import { searchMethod } from '../../../../utils/data/searchMethod.js';
+import { defaultOptions } from '../../../../utils/defaultOptions.js';
 
 chrome.storage.local.get('options', async ({ options }) => {
   if (!options) {
